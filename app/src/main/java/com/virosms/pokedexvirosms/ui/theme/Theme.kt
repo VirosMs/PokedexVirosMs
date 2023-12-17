@@ -1,14 +1,14 @@
 package com.virosms.pokedexvirosms.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.lightColorScheme
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.darkColors
+import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 
-private val DarkColorPalette = darkColorScheme(
+private val DarkColorPalette = darkColors(
     primary = Color.Yellow,
     background = Color(0xFF101010),
     onBackground = Color.White,
@@ -16,7 +16,7 @@ private val DarkColorPalette = darkColorScheme(
     onSurface = Color.White
 )
 
-private val LightColorPalette = lightColorScheme(
+private val LightColorPalette = lightColors(
     primary = Color.Blue,
     background = LightBlue,
     onBackground = Color.Black,
@@ -46,7 +46,7 @@ fun PokedexVirosMsTheme(
     }
 
     MaterialTheme(
-        colorScheme = colors,
+        colors = colors,
         typography = Typography,
         shapes = Shapes,
         content = content
