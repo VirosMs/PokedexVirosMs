@@ -4,15 +4,6 @@
 ![Logo](https://github.com/VirosMs/PokedexVirosMs/assets/94723454/707f496c-3b03-4f56-9a3c-db9dbdf6a4cd)
 
 
-
-## Screenshots
-
-
-![App Screenshot](https://github.com/VirosMs/PokedexVirosMs/assets/94723454/09c11199-367e-4304-a477-e3a0532ac665)
-
-
-
-
 ## Descripción del Proyecto
 
 Este proyecto es una aplicación de Pokedex desarrollada en Kotlin utilizando el framework Jetpack Compose para la interfaz de usuario y Hilt para la inyección de dependencias. La aplicación muestra una lista de Pokemon que se pueden buscar y seleccionar para ver detalles adicionales.
@@ -22,6 +13,11 @@ La aplicación consta de dos pantallas principales:
 - `PokemonListScreen`: Muestra una lista de Pokemon. Los usuarios pueden buscar Pokemon por nombre utilizando la barra de búsqueda en la parte superior de la pantalla.
 
 - `PokemonDetailScreen`: Muestra detalles sobre un Pokemon seleccionado, incluyendo su imagen, tipo, peso, altura y estadísticas base.
+
+## Screenshots
+
+
+![App Screenshot](https://github.com/VirosMs/PokedexVirosMs/assets/94723454/09c11199-367e-4304-a477-e3a0532ac665)
 
 ## Configuración
 
