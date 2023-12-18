@@ -120,10 +120,4 @@ dependencies {
 
     implementation("androidx.palette:palette-ktx:1.0.0")
 
-
-    val composeBom = platform("androidx.compose:compose-bom:2023.10.01")
-    implementation(composeBom)
-
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    implementation("androidx.compose.ui:ui-tooling-preview")
 }

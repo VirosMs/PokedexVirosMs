@@ -16,6 +16,6 @@ interface PokeApi {
 
     @GET("pokemon/{name}")
     suspend fun getPokemonInfo(
-        @Path("pokemonName") name: String
+        @Path("name") name: String
     ): Pokemon
 }

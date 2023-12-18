@@ -24,7 +24,7 @@ class PokemonRepository @Inject constructor(
         val response = try {
             pokeApi.getPokemonInfo(pokemonName)
         } catch (e: Exception) {
-            return Resource.Error("An unknown error occured.")
+            return Resource.Error("An unknown error occured." + e.message)
         }
         return Resource.Success(response)
     }
